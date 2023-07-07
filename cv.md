@@ -1,5 +1,6 @@
-[rsschool-cv](https://VeronikaHooper.github.io/rsschool-cv/cv)
+[rsschool-cv][https://VeronikaHooper.github.io/rsschool-cv/cv]
 ## Veronika Fatyhava
+
 ## My Contact Info:
 * Phone: +375 44 707 22 98
 * E-mail: veronika20112000@gmail.com
@@ -57,3 +58,5 @@
 * Russian - native speaker
 * English - C1
 * Chinese - A1
+
+[defhttps://VeronikaHooper.github.io/rsschool-cv/cv]: https://VeronikaHooper.github.io/rsschool-cv/cv
