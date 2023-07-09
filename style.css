@@ -91,6 +91,7 @@ h1 {
     position: relative;
     background: rgb(221, 209, 213);
     padding: 40px;
+    width: 350px;
 }
 
 .container .right-side {
@@ -124,7 +125,7 @@ h1 {
 
 .icon {
     display: inline-block;
-    width: 25px;
+    width: 30px;
     font-size: 18px;
     color: rgb(80, 75, 77);
 }
