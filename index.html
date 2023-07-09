@@ -4,13 +4,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icon/rs_school-og.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <h1>CV</h1>
-    <img class="img" src="img/JRIHqhpO5RA.jpg" alt="Photo">
+    <header class="header wrapper">
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <li class="nav-item"><a href="#myworks" class="nav-link">My works</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="wrapper">
+        <div class="container">
+            <div class="left-side">
+                <div class="profileText">
+                    <div class="imgBx">
+                        <img src="assets/img/JRIHqhpO5RA.jpg" alt="Photo">
+                    </div>
+                    <h1>Veronika Fatykhava</h1>
+                </div>
+                <div class="contactInfo">
+                    <h2 class="title" id="contacts">Contacts</h2>
+                    <ul>
+                        <li><span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span><span
+                                class="text"><a href="tel:+375 44 707 22 98 ">+375 44 707 22 98 </a></span> </li>
+                        <li><span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span><span
+                                class="text"><a
+                                    href="mailto:veronika20112000@gmail.com">veronika20112000@gmail.com</a></span> </li>
+                        <li><span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span><span
+                                class="text"><a href="https://github.com/VeronikaHooper">VeronikaHooper</a> </span>
+                        </li>
+                        <li><span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span><span
+                                class="text">
+                                <a href="https://t.me/Veronika Hooper">Veronika Hooper</a> </span> </li>
+                    </ul>
+                </div>
+                <div class="contactInfo Education">
+                    <h2 class="title" id="education">Education</h2>
+                    <ul>
+                        <li>
+                            <h4>2018-2023</h4>
+                            <h5>Minsk State Linguistic University</h5>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contactInfo Languages">
+                    <h2 class="title" id="languages">Languages</h2>
+                    <ul>
+                        <li><span class="text">Russian - native speaker</li>
+                        <li><span class="text">English - C1</span></li>
+                        <li><span class="text">Chinese - A1</span></li>
+                        </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="about">
+                    <h2 class="title2" id="summary">Profile</h2>
+                    <p>I am a highly motivated and detail-oriented linguistics graduate with a passion for front-end
+                        development. With a strong foundation in language analysis and problem-solving, I bring a unique
+                        perspective to web
+                        development. <br><br>My linguistic background has honed my analytical skills, allowing me to
+                        efficiently
+                        break down complex problems and
+                        find innovative solutions. I am a quick learner, eager to stay up-to-date with the latest web
+                        development trends and
+                        technologies.<br><br> As a front-end developer, I am dedicated to delivering user-friendly and
+                        visually
+                        engaging web experiences. I am excited to leverage my linguistic expertise and technical skills
+                        to contribute to the success of your organization.
+                    </p>
+                </div>
+                <div class="about">
+                    <h2 class="title2" id="code">Code Example</h2>
+                    <div class="code">
+                        <code>
+&lt;<span>h1</span>&gt;Registration Form &lt;<span>/h1</span>&gt;
+&lt;<span>p</span>&gt; Please fill out this form with the required information&lt;<span></span>/p</span>&gt;
+&lt;<span>form method="post" action='https://register-demo.freecodecamp.org'</span>&gt;
+    &lt;<span>fieldset</span>&gt;
+        &lt;<span>label for="first-name">Enter Your First Name:</span>&gt; &lt;<span>input id="first-name" name="first-name" type="text" required </span>&gt;&lt;<span>/label</span>&gt;
+        &lt;<span>label for="last-name">Enter Your Last Name:</span>&gt; &lt;<span>input id="last-name" name="last-name" type="text" required  </span>&gt;&lt;<span>/label</span>&gt;
+        &lt;<span>label for="email">Enter Your Email: </span>&gt;&lt;<span>input id="email" name="email" type="email" required </span>&gt;&lt;<span>/label</span>&gt;
+        &lt;<span>label for="new-password">Create a New Password:</span>&gt; &lt;<span>input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required  </span>&gt;&lt;<span>/label</span>&gt;
+    &lt;<span>fieldset</span>&gt;
+    &lt;<span>input type="submit" value="Submit"</span>&gt;
+&lt;<span>/form</span>&gt;
+                    </code>
+                    </div>
+                    <div class="about">
+                        <h2 class="title2" id="myworks">My Works</h2>
+                        <ul>
+                            <li><a href="https://VeronikaHooper.github.io/rsschool-cv/cv">CV MarkDown</a></li>
+                        </ul>
+                    </div>
+                    <div class="about">
+                        <h2 class="title2" id="skills">Skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript Basics</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="wrapper">
+        <div class="logo">
+            <a href="//rs.school/js/" rel="noopener noreferrer" class="schoolLink"><img
+                    src="assets/logo/rs_school_js.svg" alt="logo"></a>
+        </div>
+        <a href="https://github.com/VeronikaHooper"><span class="icon"><i class="fa fa-github"
+                    aria-hidden="true"></i></span></a>
+        <p>2023</p>
+
+    </footer>
+
 </body>
 
 </html>
